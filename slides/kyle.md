@@ -1,6 +1,9 @@
 # Kyle Benson
 
-About me
+* PeopleSoft Architect and Admin
+* Oracle Cloud Architect
+* Oracle ACE
+* 13+ Years with PeopleSoft
 
 ???
 

@@ -1,14 +1,12 @@
 class: center, middle
 
-# Title of the Talk
+# Advanced PeopleSoft Administration
 
-Your Name
+Dan Iverson / Kyle Benson
 
 ![psadmin.io](images/psadmin_io.png)
 
-Session ID: **12345**
-
-https://wiki.psadmin.io/talk.TALKNAME
+https://wiki.psadmin.io/talk.adv-ps-admin2
 
 ???
 
@@ -28,9 +26,14 @@ Notes go here
 
 ---
 
-# About Us
+# About psadmin.io
 
-Talk about who we are!
+* Services
+* Blog
+* Podcast
+* Community
+* Training
+* Coaching
 
 ???
 
