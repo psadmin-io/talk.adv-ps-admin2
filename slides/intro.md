@@ -4,9 +4,7 @@ class: center, middle
 
 Dan Iverson / Kyle Benson
 
-![psadmin.io](images/psadmin_io.png)
-
-https://wiki.psadmin.io/talk.adv-ps-admin2
+![:img psadmin.io, 40%](images/psadmin_io.png)
 
 ???
 
@@ -16,9 +14,9 @@ Notes go here
 
 # Agenda
 
-1. Introduction
-1. About us
-1. Questions
+1. Elasticsearch and ACM
+1. psadmin_plus
+1. .io Cloud Ops
 
 ???
 
