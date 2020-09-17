@@ -1,4 +1,4 @@
-class: center, middle, title
+class: center, middle, blue
 
 # ACM and Elasticsearch
 
