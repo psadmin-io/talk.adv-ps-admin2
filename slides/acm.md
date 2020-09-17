@@ -37,8 +37,11 @@ Tasks:
 
 *ACM and Search Framework Demo*
 
-1. Use the `SEARCH_TEMPLATE` ACM plugin
-1. Configure a 3 node cluster (pre-configured)
+1. Log into the PIA
+1. Open the `SEARCH_TEMPLATE` ACM Template
+1. Configure the template variables
+1. Configure an ES node 
+1. Show how you can configure a cluster
 1. Remove previously deployed PTSF data
 
     This removes it from the PSTF* tables, but not Elasticsearch
