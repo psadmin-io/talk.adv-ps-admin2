@@ -86,18 +86,20 @@ psa status app
 # hidden psadmin option
 psa summary
 
-psa stop app
-psa configure app
-psa start app
-
-# combine actions - stop, configure, purge, flush, start
-psa bounce app
+psa stop app psftdb
+psa configure app psftdb
+psa start app psftdb
 
 # combine domain types
-psa restart app,prcs 
+psa bounce app,prcs psftdb
 
 # hooks for LB pool members (modify a healthcheck file)
+export PS_HEALTH_TIME=5
+psa list
+# show config values for Time and File
 psa poolrm
 psa restart web
 psa pooladd
+
+tail -f /opt/oracle/psft/cfg/webserv/psftdb/servers/PIA/logs/PIA_* | grep RUNNING
 ```
