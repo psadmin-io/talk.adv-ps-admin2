@@ -40,7 +40,10 @@ Tasks:
 1. Log into the PIA
 1. Open the `SEARCH_TEMPLATE` ACM Template
 1. Configure the template variables
+  1. Use `psvagabond` for the host
+  1. Don't use the `@domain@` value if using Vagabond
 1. Configure an ES node 
+  1. Make sure to use `PSFT_DEFAULT` for the Search Instance
 1. Show how you can configure a cluster
 1. Remove previously deployed PTSF data
 
