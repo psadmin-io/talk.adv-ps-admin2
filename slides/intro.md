@@ -1,10 +1,9 @@
-class: center, middle
-
+class: center, middle, title
 # Advanced PeopleSoft Administration
 
 Dan Iverson / Kyle Benson
 
-![:img psadmin.io, 50%](images/psadmin_io.png)
+![:img psadmin.io, 30%](images/psadmin_io_white.png)
 
 ???
 
@@ -39,16 +38,6 @@ Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and 
 
 ---
 
-# Dan Iverson
-
-* PeopleSoft Architect
-* Oracle Cloud Infrastructure Architect
-* [Oracle ACE](https://psadmin.io/ace-dan)
-* [Oracle Certified](https://www.youracclaim.com/users/dan-iverson/badges)
-* 17+ Years using PeopleSoft and Oracle
-
----
-
 # Kyle Benson
 
 * PeopleSoft Architect
@@ -56,6 +45,16 @@ Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and 
 * [Oracle ACE](https://psadmin.io/ace-kyle)
 * [Oracle Certified](https://www.youracclaim.com/users/kyle-benson/badges)
 * 13+ years using PeopleSoft and Oracle
+
+---
+
+# Dan Iverson
+
+* PeopleSoft Architect
+* Oracle Cloud Infrastructure Architect
+* [Oracle ACE](https://psadmin.io/ace-dan)
+* [Oracle Certified](https://www.youracclaim.com/users/dan-iverson/badges)
+* 17+ Years using PeopleSoft and Oracle
 
 ---
 class: center, middle, no-padding
