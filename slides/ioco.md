@@ -112,8 +112,12 @@ class: center, middle, black
 
 ???
 
-* Use terraform to build an instance
-* Include user_data that uses `ioco` to attach storage
+* Show Cloud Shell
+* Show TF module, README
+* Show `demo.tfvars` and `example.tf` files
+* `terraform plan --var-file=demo.tfvars`
+* `terraform apply -var-file=demo.tfvars`
+* Show instance in console
 
 ---
 
@@ -158,4 +162,20 @@ class: center, middle, black
 
 ???
 
-Deploy an instance using the CM repository
+* show complete in shell and console
+* `ssh opc@<IPADDRESS>`
+* takes ~30 seconds..
+* Show the block volume was setup and ready to use 
+    * `lsblk`
+* Show the cm FSS mounted
+    * `df -Th`
+* `ioco --help`
+* `vi /tmp/conf.json`
+* `sudo ioco dpk deploy --conf=/tmp/conf.json`
+* `cd /cm_psft_dpks/dpk`
+* `ll FSCM`
+* `ll tools`
+* `ll tools\858\`
+* `ll tools\858\custom`
+* `watch -n 1 ls -l /u01/app/ioco/dpk`
+* `terraform destroy --var-file=demo.tfvars`
