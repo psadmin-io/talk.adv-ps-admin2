@@ -171,7 +171,7 @@ class: center, middle, black
     * `df -Th`
 * `ioco --help`
 * `vi /tmp/conf.json`
-* `sudo ioco dpk deploy --conf=/tmp/conf.json`
+* `sudo ioco dpk deploy &`
 * `cd /cm_psft_dpks/dpk`
 * `ll FSCM`
 * `ll tools`
