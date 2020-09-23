@@ -131,6 +131,17 @@ We do more than just *Lift, Shift, & Leave*
 * Leverage cloud tools and APIs
 * Monitoring and Notifications
 * Compartments, Tags, Budget
+* [psadmin.io/oci](https://psadmin.io/oci)
+
+???
+
+* We spent a lot of time doing this
+* Putting what we learned with DPK, OCI in one place
+* NOT a one size fits all, but lays out examples of choices YOU can make
+* If you are interested in working with us, checkout out website
+    * OCI
+    * Automated Deployments, Patching
+    * Tools upgrades
 
 ---
 class: arrows, big
@@ -171,6 +182,7 @@ class: center, middle, black
     * `df -Th`
 * `ioco --help`
 * `vi /tmp/conf.json`
+* This is pulled from ps-vagabond
 * `sudo ioco dpk deploy &`
 * `cd /cm_psft_dpks/dpk`
 * `ll FSCM`
