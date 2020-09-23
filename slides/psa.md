@@ -99,7 +99,7 @@ psa list
 # show config values for Time and File
 psa poolrm
 psa restart web
-psa pooladd
+# pooladd is included in restart action
 
 tail -f /opt/oracle/psft/cfg/webserv/psftdb/servers/PIA/logs/PIA_* | grep RUNNING
 ```

@@ -4,7 +4,7 @@ class: center, middle
 
 Dan Iverson / Kyle Benson
 
-![:img psadmin.io, 40%](images/psadmin_io.png)
+![:img psadmin.io, 50%](images/psadmin_io.png)
 
 ???
 
@@ -18,7 +18,7 @@ Notes go here
 
 1. psadmin_plus
 
-1. psadmin.io Cloud Ops
+1. psadmin.io Cloud Operations
 
 ???
 
