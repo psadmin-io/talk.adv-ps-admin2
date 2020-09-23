@@ -48,7 +48,7 @@ A python utility for common tasks related to administering PeopleSoft in the Clo
 ---
 
 # ioco --help
-```
+```bash
 psadmin.io cloud operations utility
 
 usage:
@@ -58,7 +58,7 @@ usage:
                     [--get-dpk]
                     [--setup-dpk]
                     [--firewall-pia]
-                    [--dpk-source=<type> --dpk-platform=<type> --dpk-type=<type>]
+                    [--dpk-source=<type> ...]
                     [--dpk-version=<nbr> --dpk-patch=<nbr>]
     ioco dpk undeploy [options]
     ioco oci block [options]

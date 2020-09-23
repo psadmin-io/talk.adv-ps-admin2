@@ -8,4 +8,8 @@ class: center, middle, white
 
 # More Information
 
-https://wiki.psadmin.io/talk.adv-ps-admin2
+[psadmin.io/oci](https://psadmin.io/oci)
+
+[info@psadmin.io](mailto:info@psadmin.io)
+
+[wiki.psadmin.io/talk.adv-ps-admin2](https://wiki.psadmin.io/talk.adv-ps-admin2)
