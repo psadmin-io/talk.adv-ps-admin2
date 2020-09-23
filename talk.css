@@ -1,1 +1,13 @@
 /* Override template style for this talk here */
+
+.arrows ul {
+    list-style: none;
+}
+
+.arrows li:before {
+    content: "\27a5";
+}
+
+.big li{
+    font-size: 48px;
+}
