@@ -36,12 +36,20 @@ class: center, middle, white
 
     ```bash
     sudo -i -u esadm1
-    cd /opt/oracle/psft/pt/ES/elasticsearch7.0.0
-    export JAVA_HOME=/opt/oracle/psft/pt/ES/es_jre1.8.0_251
+    cd /opt/oracle/psft/pt/ES/pt/elasticsearch7.0.0
+    export JAVA_HOME=/opt/oracle/psft/pt/ES/pt/es_jre1.8.0_251
     nohup bin/elasticsearch &
     cd ../Kibana7.0.0
     nohup bin/kibana &
     ```
+
+1. Prepare `SEARCH_TEMPLATE` ACM Template
+  1. Fill out template variables
+  1. Set 3 plugins: Cleanup, Configure, Deploy
+  1. Pre-fill the values in each plugin
+  1. Ensure Search Instance page does not have valid values (or references PRD)
+
+1. (Vagabond) Create snapshot of instance at this point: `start-of-acm-demo`
 
 ### Demo
 
@@ -73,6 +81,7 @@ class: center, middle, white
 # Elasticsearch Refresh Process
 
 1. Configure ACM template 
+
   * `DBNAME_CONFIG`
   * `DBNAME_REFRESH`
 
@@ -80,9 +89,10 @@ class: center, middle, white
 The ACM template should be just for refreshing. Include the SES Cleanup plugin, Search Instance Config, and then the Deploy Search Definitions. I like to use `DBNAME_REFRESH` for the template name (make sure you add security), and you can include other refresh-based ACM plugins (IB config, custom like email scrambling)
 --
 1. Execute ACM 
+
   * Command Line App Engine Call
   * Insert into Process Monitor
-  * Deployment Package(*)
+  * Deployment Packages*
 ???
 There are a couple of ways you can execute ACM templates.
 1. ACM is just an App Engine, so you can use the command line. Easy to schedule via cron/Scheduled Tasks. There is even helper script to make the call easier.

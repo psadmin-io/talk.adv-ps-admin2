@@ -7,16 +7,21 @@ class: center, middle, blue
 # psadmin-plus
 
 * psadmin-plus, or  `psa`, is a psadmin helper script
+
+--
 * Great for completing multiple tasks in one command
-* [github.com/psadmin-io/psadmin-plus](https://github.com/psadmin-io/psadmin-plus)
+
+--
+* Open Source
+
+  [github.com/psadmin-io/psadmin-plus](https://github.com/psadmin-io/psadmin-plus)
 
 ---
 
 # psa help
 
-```bash
-    $ psa help
-    Usage: psa [command] <type> <domain>
+```
+Usage: psa [command] <type> <domain>
 
     Commands:
         help           display this help message
