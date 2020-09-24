@@ -1,3 +1,17 @@
+class: center, white
+
+## Let's Build a PeopleSoft Server!
+
+![:img excited, 70%](images/tool-time.jpg)
+
+???
+
+* We are going to build a new ps instance 
+* Using TF module 
+* New utility called ioco
+
+---
+
 class: center, middle, black
 
 # Demo
