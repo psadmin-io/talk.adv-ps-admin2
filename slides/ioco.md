@@ -1,6 +1,21 @@
+class: center, middle, black
+
+# Demo
+
+???
+
+* Show Cloud Shell
+* Show TF module, README
+* Show `demo.tfvars` and `example.tf` files
+* `terraform plan --var-file=demo.tfvars`
+* `terraform apply -var-file=demo.tfvars`
+* Show instance in console
+
+---
+
 class: center, middle, blue
 
-# psadmin.io Cloud Ops
+# psadmin.io Cloud Operations
 
 ???
 
@@ -35,6 +50,53 @@ class: center, white
     * DPK, psadmin.io Puppet modules
     * `psadmin-plus`
     * `ioco`
+
+---
+class: arrows, big
+
+# Cloud Success Stories
+
+## Saint Paul Public Schools
+
+* Tools Upgrade
+    * OCI-Classic
+        * OCI
+
+???
+
+* 2017
+    * Started at SPPS, at 8.52
+    * Upgraded to 8.55, added some automation, DPK, etc, general cleanup
+* 2018
+    * Moved Non-Prod to OCI-C
+* 2019
+    * Moved Non-Prod to OCI
+* 2020
+    * Moved Prod to OCI
+
+---
+
+# psadmin.io Cloud Ops
+
+## Methodology
+
+We do more than just *Lift, Shift, & Leave*
+
+* Align with Agile, DevOps and IaC
+* Leverage cloud tools and APIs
+* Monitoring and Notifications
+* Compartments, Tags, Budget
+* [psadmin.io/oci](https://psadmin.io/oci)
+
+???
+
+* We spent a lot of time doing this
+* Putting what we learned with DPK, OCI in one place
+* NOT a one size fits all, but lays out examples of choices YOU can make
+* If you are interested in working with us, checkout out website
+    * OCI
+    * Automated Deployments, Patching
+    * Tools upgrades
 
 ---
 
@@ -104,67 +166,6 @@ $ pip install ioco
 $ ioco --help
 ```
 
----
-
-class: center, middle, black
-
-# Demo
-
-???
-
-* Show Cloud Shell
-* Show TF module, README
-* Show `demo.tfvars` and `example.tf` files
-* `terraform plan --var-file=demo.tfvars`
-* `terraform apply -var-file=demo.tfvars`
-* Show instance in console
-
----
-
-# psadmin.io Cloud Ops
-
-## Methodology
-
-We do more than just *Lift, Shift, & Leave*
-
-* Align with Agile, DevOps and IaC
-* Leverage cloud tools and APIs
-* Monitoring and Notifications
-* Compartments, Tags, Budget
-* [psadmin.io/oci](https://psadmin.io/oci)
-
-???
-
-* We spent a lot of time doing this
-* Putting what we learned with DPK, OCI in one place
-* NOT a one size fits all, but lays out examples of choices YOU can make
-* If you are interested in working with us, checkout out website
-    * OCI
-    * Automated Deployments, Patching
-    * Tools upgrades
-
----
-class: arrows, big
-
-# Cloud Success Stories
-
-## Saint Paul Public Schools
-
-* Tools Upgrade
-    * OCI-Classic
-        * OCI
-
-???
-
-* 2017
-    * Started at SPPS, at 8.52
-    * Upgraded to 8.55, added some automation, DPK, etc, general cleanup
-* 2018
-    * Moved Non-Prod to OCI-C
-* 2019
-    * Moved Non-Prod to OCI
-* 2020
-    * Moved Prod to OCI
 
 ---
 class: center, middle, black
@@ -175,7 +176,7 @@ class: center, middle, black
 
 * show complete in shell and console
 * `ssh opc@<IPADDRESS>`
-* takes ~30 seconds..
+* takes ~30 seconds..type
 * Show the block volume was setup and ready to use 
     * `lsblk`
 * Show the cm FSS mounted
@@ -190,4 +191,6 @@ class: center, middle, black
 * `ll tools\858\`
 * `ll tools\858\custom`
 * `watch -n 1 ls -l /u01/app/ioco/dpk`
+* show log
+* show in browser
 * `terraform destroy --var-file=demo.tfvars`
