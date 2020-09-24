@@ -175,22 +175,14 @@ class: center, middle, black
 ???
 
 * show complete in shell and console
+* update hosts file
 * `ssh opc@<IPADDRESS>`
-* takes ~30 seconds..type
+* `ioco --help`
+* `vi /u01/app/ioco/conf.json`
 * Show the block volume was setup and ready to use 
     * `lsblk`
 * Show the cm FSS mounted
     * `df -Th`
-* `ioco --help`
-* `vi /tmp/conf.json`
-* This is pulled from ps-vagabond
-* `sudo ioco dpk deploy &`
-* `cd /cm_psft_dpks/dpk`
-* `ll FSCM`
-* `ll tools`
-* `ll tools\858\`
-* `ll tools\858\custom`
-* `watch -n 1 ls -l /u01/app/ioco/dpk`
-* show log
+* `tail -f /u01/app/ioco/logs/ioco.log` 
 * show in browser
 * `terraform destroy --var-file=demo.tfvars`
