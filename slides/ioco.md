@@ -2,11 +2,11 @@ class: center, white
 
 ## Let's Build a PeopleSoft Server!
 
-![:img excited, 70%](images/tool-time.jpg)
+![:img excited, 68%](images/tool-time.jpg)
 
 ???
 
-* We are going to build a new ps instance 
+* We are going to build a new ps server 
 * Using TF module 
 * New utility called ioco
 
@@ -19,10 +19,12 @@ class: center, middle, black
 ???
 
 * Show Cloud Shell
-* Show TF module, README
-* Show `demo.tfvars` and `example.tf` files
-* `terraform plan --var-file=demo.tfvars`
-* `terraform apply -var-file=demo.tfvars`
+* `terraform apply --var-file=demo.tfvars -auto-approve > /tmp/tf.log &`
+* Show TF module
+* Show README
+* Show `ps-instance` dir
+* Show `example.tf`
+* Show `demo.tfvars` 
 * Show instance in console
 
 ---
