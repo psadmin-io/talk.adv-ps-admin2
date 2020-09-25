@@ -91,13 +91,6 @@ psa status app
 # hidden psadmin option
 psa summary
 
-psa stop app psftdb
-psa configure app psftdb
-psa start app psftdb
-
-# combine domain types
-psa bounce app,prcs psftdb
-
 # hooks for LB pool members (modify a healthcheck file)
 export PS_HEALTH_TIME=5
 psa list
@@ -105,6 +98,15 @@ psa list
 psa poolrm
 psa restart web
 # pooladd is included in restart action
+
+psa stop app psftdb
+psa configure app psftdb
+psa start app psftdb
+
+# combine domain types
+psa bounce app,prcs psftdb
+
+
 
 tail -f /opt/oracle/psft/cfg/webserv/psftdb/servers/PIA/logs/PIA_* | grep RUNNING
 ```
