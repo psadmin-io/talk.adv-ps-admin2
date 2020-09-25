@@ -10,13 +10,18 @@
     <script src="talk.template/js/remark.js" type="text/javascript">
     </script>
     <script type="text/javascript">
+    remark.macros.img = function (altText, width) {
+         var url = this;
+         return '<img alt="' + altText + '" src="' + url + '" style="width: ' + width + '" />';
+       };
+       
 	  var slideshow = remark.create(
       {sourceUrls: [
         // update slides here           
         'slides/intro.md',
-        'slides/dan.md',
-        'slides/kyle.md',
-        'slides/talk.md',
+        'slides/acm.md',
+        'slides/psa.md',
+        'slides/ioco.md',
         'slides/close.md',
       ]}
     );
